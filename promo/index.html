@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <title>Redirect</title>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-44827369-1', 'groovevortex.com');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript">
+    function getUrlVar(key) {
+      var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
+      return result && unescape(result[1]) || ""; 
+    }
+    var code = getUrlVar('id');
+    if (code) {
+      // ls=1 means the URL will try to open iTunes
+      // mt=8 means Mobile Software Application category
+      // at=... is the affiliate ID
+      window.location.href = 'https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/freeProductCodeWizard?code=' + code + '&ls=1&mt=8&at=10lmv2';
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

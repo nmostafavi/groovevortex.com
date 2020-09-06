@@ -1,0 +1,207 @@
+body
+{
+  background: black url('/images/background.jpg') no-repeat fixed center center;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+a 
+{
+  color: white;
+}
+
+ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#body-container
+{
+  margin: 0 auto;
+  width: 768px;
+}
+
+#header 
+{
+  margin: 0 auto;
+  width: 640px;
+}
+#header img
+{
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+#copyright
+{
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+#badge-ios
+{
+  display: block;
+  width: 270px;
+  height: 80px;
+  margin: 20px auto;
+  background: url('/images/badge-appstore-135x40.svg') no-repeat;
+  text-indent: -9999px;
+  -webkit-background-size: 270px 80px;
+  -moz-background-size: 270px 80px;
+  -o-background-size: 270px 80px;	
+  background-size: 270px 80px;
+}
+
+#badge-itunes
+{
+  display: block;
+  width: 220px;
+  height: 80px;
+  margin: 20px auto;
+  background: url('/images/badge-itunes-110x40.svg') no-repeat;
+  text-indent: -9999px;
+  -webkit-background-size: 220px 80px;
+  -moz-background-size: 220px 80px;
+  -o-background-size: 220px 80px;	
+  background-size: 220px 80px;
+}
+
+#gallery
+{
+  width: 698px;
+  height: 340px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#gallery-inner
+{
+  display: inline-block;
+  width: 698px;
+  margin: 0 10px 0 0;
+}
+
+#gallery-inner img
+{
+  float: left;
+  margin: 10px 0 10px 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+#gallery-nav
+{
+  float: left;
+  width: 100px;
+  font-size: 18px;
+}
+
+#gallery-nav img
+{
+  margin: 10px 0 0 10px;
+}
+
+#nav
+{
+  margin: 20px 0;
+}
+
+#nav li
+{
+  display: inline-block;
+}
+
+#nav a
+{
+  margin: 0 5px;
+  padding: 10px 12px 8px 12px;
+  background: rgb(25, 25, 25);
+  text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.4);
+  
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  
+  -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+  
+  border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+#nav a:hover
+{
+  background: rgb(55, 55, 55);
+}
+
+#nav a:active
+{
+  background: rgb(75, 75, 75);
+  border: 1px solid rgba(128, 128, 128, 0.85);
+}
+
+#content
+{
+  width: 658px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: left;
+  background: rgba(0,0,0,0.65);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+#content h1, #content h2
+{
+  margin: 10px 0 10px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgba(64, 64, 64, 0.5);
+}
+
+#content h2
+{
+  margin-left: 20px;
+}
+
+#content p
+{
+  margin-left: 40px;
+}
+
+#music li 
+{
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+#music li img
+{
+  vertical-align: middle;
+}
+
+#presskit
+{
+  margin-left: 40px;
+  list-style: disc;
+  line-height: 30px;
+}
+
+#presskit li
+{
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.font-effect-anaglyph 
+{
+  text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+}
+
+.font-effect-outline 
+{
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  color: #fff;
+}
